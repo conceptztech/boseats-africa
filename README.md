@@ -20,6 +20,8 @@ Website at: [boseatsafrica.com](https://boseatsafrica.com/)
 * **Payment Integration**: Paystack
 
 ## Installation
+Easily deploy on web hosting by uploading all the files to server app root.
+Dump the SQL file to PHPMyAdmin to upload DB
 
 ### Prerequisites
 
