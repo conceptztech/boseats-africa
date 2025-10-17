@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoseaAfrica - Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background: linear-gradient(135deg, #0a9e3b 0%, #0c9c43 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .coming-soon-container {
+            text-align: center;
+            padding: 40px;
+            max-width: 1000px;
+            width: 90%;
+        }
+
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .service-description {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+
+        .coming-soon-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .contact-info {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .contact-text {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-email {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            display: inline-block;
+        }
+
+        .contact-email:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 1024px) {
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .main-title {
+                font-size: 2rem;
+            }
+            
+            .logo {
+                font-size: 2.5rem;
+            }
+            
+            .service-card {
+                padding: 30px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .coming-soon-container {
+                padding: 20px;
+            }
+            
+            .main-title {
+                font-size: 1.8rem;
+            }
+            
+            .service-title {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="coming-soon-container">
+        <div class="logo">BoseatsAfrica</div>
+        
+        <h1 class="main-title">Exciting New Services Coming Soon!</h1>
+        <p class="subtitle">We're working hard to bring you the best travel experience in Africa</p>
+        
+        <div class="services-grid">
+            <!-- Car Renting Service -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h2 class="service-title">Car Renting</h2>
+                <p class="service-description">
+                    Explore Africa at your own pace with our premium car rental service. 
+                    From comfortable sedans to rugged SUVs, we'll have the perfect vehicle for your adventure.
+                </p>
+                <span class="coming-soon-badge">
+                    <i class="fas fa-clock"></i> Coming Soon
+                </span>
+            </div>
+            
+            <!-- Hotel Booking Service -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-hotel"></i>
+                </div>
+                <h2 class="service-title">Hotel Booking</h2>
+                <p class="service-description">
+                    Discover the finest accommodations across Africa. From luxury resorts 
+                    to cozy boutique hotels, we'll help you find your perfect home away from home.
+                </p>
+                <span class="coming-soon-badge">
+                    <i class="fas fa-clock"></i> Coming Soon
+                </span>
+            </div>
+            
+            <!-- Flight Booking Service -->
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <h2 class="service-title">Flight Booking</h2>
+                <p class="service-description">
+                    Fly across Africa with ease. Find the best deals on domestic and international flights, 
+                    with flexible options to suit your travel needs and budget.
+                </p>
+                <span class="coming-soon-badge">
+                    <i class="fas fa-clock"></i> Coming Soon
+                </span>
+            </div>
+        </div>
+        
+        <div class="contact-info">
+            <p class="contact-text">Interested in being notified when we launch?</p>
+            <a href="mailto:info@boseatsfrica.com" class="contact-email">
+                <i class="fas fa-envelope"></i> info@boseafrica.com
+            </a>
+        </div>
+    </div>
+</body>
+</html>
